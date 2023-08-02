@@ -1,0 +1,29 @@
+{
+  "name": "sdx-php-date",
+  "version": "0.0.1",
+  "description": "📅✨ A TypeScript ES-Module library with a magical date function 🪄🌟! Just like PHP's date function, it also offers formateDate 📆 & formatDatetime ⏰ utilities. Simplify date formatting in your projects! ⚙️🚀",
+  "main": "date.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlcyZ/sdx-php-date.git"
+  },
+  "keywords": [
+    "date",
+    "php",
+    "date",
+    "format",
+    "utility"
+  ],
+  "author": "Tobias Schindler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlcyZ/sdx-php-date/issues"
+  },
+  "homepage": "https://github.com/AlcyZ/sdx-php-date#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}

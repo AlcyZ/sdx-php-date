@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES5",
+    "strict": true,
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "noEmit": true
+  },
+  "files": [
+    "date.ts"
+  ]
+}
