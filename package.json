@@ -1,6 +1,6 @@
 {
   "name": "sdx-php-date",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "📅✨ A TypeScript ES-Module library with a magical date function 🪄🌟! Just like PHP's date function, it also offers formateDate 📆 & formatDatetime ⏰ utilities. Simplify date formatting in your projects! ⚙️🚀",
   "author": "Tobias Schindler",
   "license": "MIT",
