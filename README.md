@@ -11,21 +11,21 @@ Simplify date handling with sdx-php-date! This TypeScript ES-Module library brin
 ## 📝 Usage
 
 ```typescript
-import { date, formatDate, formatDatetime } from 'sdx-php-date';
+import { date, formatDate, formatDatetime } from 'sdx-php-date'
 
 // Format current date
-const formattedDate = date('Y-m-d'); // Output: '2023-08-02'
+const formattedDate = date('Y-m-d') // Output: '2023-08-02'
 
 // Format specific timestamp
-const formattedTimestamp = date('H:i', 1627915200); // Output: '00:00'
+const formattedTimestamp = date('H:i', 1627915200) // Output: '00:00'
 
 // Format JS Date object
-const jsDate = new Date('2023-08-02T12:34:56');
-const formattedJSDate = formatDate('l, F jS Y', jsDate); // Output: 'Wednesday, August 2nd 2023'
+const jsDate = new Date('2023-08-02T12:34:56')
+const formattedJSDate = formatDate('l, F jS Y', jsDate) // Output: 'Wednesday, August 2nd 2023'
 
 // Format datetime string
-const datetimeString = '2023-08-02 12:34:56';
-const formattedDatetime = formatDatetime('d/m/Y h:i A', datetimeString); // Output: '02/08/2023 12:34 PM'
+const datetimeString = '2023-08-02 12:34:56'
+const formattedDatetime = formatDatetime('d/m/Y h:i A', datetimeString) // Output: '02/08/2023 12:34 PM'
 ```
 
 ## ⚙️ Installation

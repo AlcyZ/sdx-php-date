@@ -2,15 +2,15 @@
   "name": "sdx-php-date",
   "version": "0.0.1",
   "description": "📅✨ A TypeScript ES-Module library with a magical date function 🪄🌟! Just like PHP's date function, it also offers formateDate 📆 & formatDatetime ⏰ utilities. Simplify date formatting in your projects! ⚙️🚀",
-  "main": "date.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint",
-    "lint:fix": "eslint --fix"
-  },
+  "author": "Tobias Schindler",
+  "license": "MIT",
+  "homepage": "https://github.com/AlcyZ/sdx-php-date#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlcyZ/sdx-php-date.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlcyZ/sdx-php-date/issues"
   },
   "keywords": [
     "date",
@@ -19,17 +19,17 @@
     "format",
     "utility"
   ],
-  "author": "Tobias Schindler",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AlcyZ/sdx-php-date/issues"
-  },
-  "homepage": "https://github.com/AlcyZ/sdx-php-date#readme",
-  "devDependencies": {
-    "typescript": "^5.1.6"
+  "main": "date.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
   },
   "dependencies": {
     "@antfu/eslint-config": "^6.2.0",
     "eslint": "^9.39.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
   }
 }
