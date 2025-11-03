@@ -4,7 +4,9 @@
   "description": "📅✨ A TypeScript ES-Module library with a magical date function 🪄🌟! Just like PHP's date function, it also offers formateDate 📆 & formatDatetime ⏰ utilities. Simplify date formatting in your projects! ⚙️🚀",
   "main": "date.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
   },
   "repository": {
     "type": "git",
@@ -25,5 +27,9 @@
   "homepage": "https://github.com/AlcyZ/sdx-php-date#readme",
   "devDependencies": {
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^6.2.0",
+    "eslint": "^9.39.0"
   }
 }
